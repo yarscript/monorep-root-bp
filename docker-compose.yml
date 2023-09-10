@@ -1,0 +1,18 @@
+version: '3'
+services:
+  service1:
+    build:
+      context: ./submodule1
+    environment:
+      - ENV_VARIABLE_NAME_1=value1
+    depends_on:
+      - rabbitmq
+  service2:
+    build:
+      context: ./submodule2
+    environment:
+      - ENV_VARIABLE_NAME_2=value2
+    depends_on:
+      - rabbitmq
+  rabbitmq:
+    image: rabbitmq:latest
