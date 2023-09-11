@@ -13,9 +13,13 @@ $ git clone git@github.com:yarscript/monorep-root-bp.git
 ```
 
 -----------
-##### Submodules update
+##### Submodules update init
 ```shell
 $ git submodule update --init --recursive
+```
+##### Pull submodules
+```shell
+$ git pull --recurse-submodules
 ```
 
 --------
