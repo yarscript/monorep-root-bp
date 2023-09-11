@@ -6,11 +6,20 @@ $ git submodule add https://github.com/yarscript/child-first-ms-bp.git child-fir
 ```
 
 ```sh
-$ rm -rf child-first-ms-bp
-$ git rm -rf child-first-ms-bp
+
+$ git submodule add git@github.com:yarscript/child-second-ms-bp.git
+
+### add force
+
 $ git submodule add --force https://github.com/yarscript/child-first-ms-bp.git child-first-ms-bp
 
 ### fetch
-$ git submodule update --recursive --remote 
+
+$ git submodule update --recursive --remote
+
+###
+
+$ rm -rf child-first-ms-bp
+$ git rm -rf child-first-ms-bp 
 ```
 
