@@ -4,7 +4,7 @@
 
 ##### HTTPS
 ```shell
-$ git clone https://github.com/yarscript/monorep-root-bp.git
+git clone https://github.com/yarscript/monorep-root-bp.git --recurse-submodules
 ```
 ### OR
 #####  SSH
