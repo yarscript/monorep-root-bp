@@ -6,15 +6,19 @@
 ```shell
 $ git clone https://github.com/yarscript/monorep-root-bp.git
 ```
+### OR
 #####  SSH
 ```shell
 $ git clone git@github.com:yarscript/monorep-root-bp.git
 ```
 
+-----------
 ##### Submodules update
 ```shell
 $ git submodule update --init --recursive
 ```
+
+--------
 
 ### Bootstrap
 ```shell
