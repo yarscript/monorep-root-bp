@@ -1,9 +1,18 @@
 # empty
 
 ## Install
-```sh
-$ ## $ git clone
 
+##### HTTPS
+```shell
+$ git clone https://github.com/yarscript/monorep-root-bp.git
+```
+#####  SSH
+```shell
+$ git clone git@github.com:yarscript/monorep-root-bp.git
+```
+
+### Bootstrap
+```shell
 #
 $ git submodule update --recursive --remote
 
