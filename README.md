@@ -9,7 +9,19 @@ $ git submodule update --recursive --remote
 
 #
 $ docker-compose up
+
+### Expected result
+
+# [+] Running 4/4
+# ✔ Network monorep-root-bp_default       Created                                                                                                                                                0.6s 
+# ✔ Container monorep-root-bp-rabbitmq-1  Created                                                                                                                                                1.9s 
+# ✔ Container monorep-root-bp-service2-1  Created                                                                                                                                                0.5s 
+# ✔ Container monorep-root-bp-service1-1  Created                                                                                                                                                0.4s 
+# Attaching to monorep-root-bp-rabbitmq-1, monorep-root-bp-service1-1, monorep-root-bp-service2-1
+
+$ docker ls
 ```
+
 
 ## Submodule add
 ```sh
