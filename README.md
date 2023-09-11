@@ -11,11 +11,13 @@ $ git clone https://github.com/yarscript/monorep-root-bp.git
 $ git clone git@github.com:yarscript/monorep-root-bp.git
 ```
 
+##### Submodules update
+```shell
+$ git submodule update --init --recursive
+```
+
 ### Bootstrap
 ```shell
-#
-$ git submodule update --recursive --remote
-
 #
 $ docker-compose up
 
