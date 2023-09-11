@@ -1,3 +1,6 @@
 [submodule "child-first-ms-bp"]
 	path = child-first-ms-bp
 	url = https://github.com/yarscript/child-first-ms-bp.git
+[submodule "child-second-ms-bp"]
+	path = child-second-ms-bp
+	url = git@github.com:yarscript/child-second-ms-bp.git
